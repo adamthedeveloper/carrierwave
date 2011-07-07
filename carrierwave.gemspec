@@ -12,17 +12,17 @@ Gem::Specification.new do |s|
   s.date = Date.today
   s.description = "Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends."
   s.summary = "Ruby file upload library"
-  s.email = ["jonas.nicklas@gmail.com"]
+  s.email = ["adammede@gmail.com"]
   s.extra_rdoc_files = ["README.md"]
   s.files = Dir.glob("{bin,lib}/**/*") + %w(README.md)
-  s.homepage = %q{https://github.com/jnicklas/carrierwave}
+  s.homepage = %q{https://github.com/adamthedeveloper/carrierwave}
   s.rdoc_options = ["--main"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{carrierwave}
   s.rubygems_version = %q{1.3.5}
   s.specification_version = 3
 
-  s.add_dependency("activesupport", ["~> 3.0"])
+  #s.add_dependency("activesupport", ["~> 3.0"])
 
   s.add_development_dependency "rails", ["~> 3.0"]
   s.add_development_dependency "rspec", ["~> 2.0"]
